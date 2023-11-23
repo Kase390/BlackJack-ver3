@@ -1,0 +1,86 @@
+/* style.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #009688; /* ゲームの背景色 */
+  color: white;
+}
+
+#game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh; /* 追加 */
+}
+
+.area {
+  margin: 20px;
+  padding: 10px;
+  background-color: #333; /* ディーラーとプレイヤーのエリアの背景色 */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.hand-total {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.unwanted-card {
+  display: none;
+}
+
+.info {
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.hand {
+  display: flex;
+}
+
+.card {
+  width: 100px;
+  height: 150px;
+  margin-right: 10px;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+}
+
+.buttons-row{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px; /* ボタン間のスペースを調整 */
+}  
+  
+.button-row button {
+  margin-right: 10px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#money,
+.bet-input-row,
+.bet-buttons-row {
+  margin-right: 10px;
+}
+
+.bet-input-row label {
+  margin-right: 5px;
+}
+
+
+
+
